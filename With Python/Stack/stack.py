@@ -25,18 +25,3 @@ class Stack():
         if len(self.stack) == 0:
             return True
         return False
-
-
-s = Stack()
-
-s.push(1)
-s.push(3)
-s.push(512)
-
-print(s.isEmpty())
-print(s.pop())
-print(s.pop())
-print(s.peek())
-print(s.pop())
-print(s.isEmpty())
-print(s.peek())
