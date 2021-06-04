@@ -33,3 +33,15 @@ class Stack:
         if self.isEmpty():
             return False
         return self.head.data
+
+
+stk = Stack()
+stk.push(1)
+stk.push(2)
+stk.push(3)
+stk.push(4)
+print(stk.pop())
+print(stk.pop())
+print(stk.pop())
+print(stk.pop())
+print(stk.pop())
